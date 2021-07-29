@@ -2,6 +2,8 @@ li{
     font-size:medium;
     color: darksalmon;
     text-align: left;
+    display:inline;
+    padding:20;
 }
 .ToHalfSide{
     text-align: left;
