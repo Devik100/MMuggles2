@@ -10,10 +10,18 @@ li{
     color:darkseagreen;
     font-size:larger;
 }
-body{
-    text-align:center;
-}
 #vid{
     width:1000;
     height:1000;
+
+}
+.centering{
+    text-align:center;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
 }

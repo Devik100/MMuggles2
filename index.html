@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <nav class="navbar-inverse centering" style="position:sticky;top:0;z-index:99999">
 
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -44,27 +44,70 @@
         <section id="C">
             <h2>Campus Life</h2>
             <img src="Untitled-1.jpg">
-            <div>
-                <span>
-                    <h3>Dining hall</h3>
-                </span>
-                <span>
-                    <h3>Librarby</h3>
-                </span>
-                <span>
-                    <h3>Theater</h3>
-                </span>
-            </div>
-            <div>
-                <span>
+            <div class="row">
+                <div class="column">
+                    <h3>Dining Hall</h3>
                     <p>Dining hall is filled with delicious food and everybody likes eating it.</p>
-                </span>
-                <span>
+                </div>
+                <div class="column">
+                    <h3>Librarby</h3>
                     <p>Library has many good books to read about classes.</p>
-                </span>
-                <span>
+                </div>
+                <div class="column">
+                    <h3>Theater</h3>
                     <p>Theater takes place weekly but exeptionally good theater takes place monthy.</p>
-                </span>
+                </div>
+            </div>
+                <!--By the way, <span> isn't working here.-->
+        </section>
+        <section id="A">
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Cool">
+                <span class="glyphicon glyphicon-film"></span>
+                We are a very cool school
+                <i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="Cool" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-black-white-10.png" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                        You can't be vey mucher cooler than us
+                    </h5>
+                    <p>We are the coolest school and you're not going to stop us</p>
+                </div>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Smort">
+                <span class="glyphicon glyphicon-film"></span>
+                We make students very smart
+                <i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="Smort" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-black-white-10.png" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                        We have smarter students than you
+                    </h5>
+                    <p>We have the smartest students and you aren't going to stop us</p>
+                </div>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Yaiy">
+                <span class="glyphicon glyphicon-film"></span>
+                We have happy students
+                <i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="Yaiy" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-black-white-10.png" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                        Your students are all depressed compared to ours
+                    </h5>
+                    <p>We are the school with the happiest students and you're not going to stop us</p>
+                </div>
             </div>
         </section>
         <section id="O">
@@ -75,4 +118,3 @@
         </section>
     </body>
 </html>
-furmu
